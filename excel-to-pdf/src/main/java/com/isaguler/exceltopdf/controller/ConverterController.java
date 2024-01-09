@@ -1,7 +1,6 @@
 package com.isaguler.exceltopdf.controller;
 
 import com.isaguler.exceltopdf.service.ConverterService;
-import com.itextpdf.text.Document;
 import org.springframework.http.HttpHeaders;
 import org.springframework.http.HttpStatus;
 import org.springframework.http.MediaType;
@@ -34,7 +33,6 @@ public class ConverterController {
             return new ResponseEntity<>(bytes, headers, HttpStatus.OK);
 
         } catch (Exception e) {
-            e.printStackTrace();
 
             return new ResponseEntity<>(e.getMessage(), HttpStatus.BAD_REQUEST);
         }

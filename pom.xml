@@ -21,6 +21,7 @@
 
 	<modules>
 		<module>excel-to-pdf</module>
+		<module>timefold</module>
 	</modules>
 
 	<dependencies>
