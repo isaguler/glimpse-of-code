@@ -23,6 +23,7 @@
 		<module>excel-to-pdf</module>
 		<module>timefold</module>
 		<module>structured-log</module>
+		<module>jfreechart-demo</module>
 	</modules>
 
 	<dependencies>
