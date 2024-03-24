@@ -37,4 +37,14 @@ public class ConverterController {
             return new ResponseEntity<>(e.getMessage(), HttpStatus.BAD_REQUEST);
         }
     }
+
+    @PostMapping(value = "/json", consumes = { MediaType.MULTIPART_FORM_DATA_VALUE })
+    public ResponseEntity<Object> excelToJson(@RequestParam MultipartFile multipartFile) {
+        try {
+            return new ResponseEntity<>(converterService.convertExcelToJson(multipartFile), HttpStatus.OK);
+
+        } catch (Exception e) {
+            return new ResponseEntity<>(e.getMessage(), HttpStatus.BAD_REQUEST);
+        }
+    }
 }

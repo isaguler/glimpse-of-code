@@ -57,7 +57,6 @@ public class ChartService {
 
         try (OutputStream os = new FileOutputStream(file)) {
             ChartUtils.writeChartAsJPEG(os, chart, 600, 400);
-
         } catch (Exception e) {
             throw new RuntimeException(e.getMessage());
         }
