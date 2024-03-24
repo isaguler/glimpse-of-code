@@ -1,6 +1,8 @@
-# excel-to-pdf
+# excel-to-pdf / json
 
-https://www.baeldung.com/java-convert-excel-files-pdf
+[Excel to PDF](https://www.baeldung.com/java-convert-excel-files-pdf)
+
+[Excel to JSON](https://www.baeldung.com/java-excel-json-conversion#bd-using-apache-poi-library-with-json)
 
 ```xml
 <dependencies>
