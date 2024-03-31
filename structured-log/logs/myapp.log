@@ -1,0 +1,476 @@
+{
+  "@timestamp" : "2024-02-23T14:55:26.4675058+03:00",
+  "@version" : "1",
+  "message" : "Starting StructuredLogApplication using Java 21.0.1 with PID 32936 (C:\\Users\\Gülers\\IdeaProjects\\glimpse-of-code\\structured-log\\target\\classes started by Gülers in C:\\Users\\Gülers\\IdeaProjects\\glimpse-of-code)",
+  "logger_name" : "com.isaguler.structuredlog.StructuredLogApplication",
+  "thread_name" : "main",
+  "level" : "INFO",
+  "level_value" : 20000,
+  "caller_class_name" : "org.springframework.boot.StartupInfoLogger",
+  "caller_method_name" : "logStarting",
+  "caller_file_name" : "StartupInfoLogger.java",
+  "caller_line_number" : 50
+}
+{
+  "@timestamp" : "2024-02-23T14:55:26.4795032+03:00",
+  "@version" : "1",
+  "message" : "No active profile set, falling back to 1 default profile: \"default\"",
+  "logger_name" : "com.isaguler.structuredlog.StructuredLogApplication",
+  "thread_name" : "main",
+  "level" : "INFO",
+  "level_value" : 20000,
+  "caller_class_name" : "org.springframework.boot.SpringApplication",
+  "caller_method_name" : "logStartupProfileInfo",
+  "caller_file_name" : "SpringApplication.java",
+  "caller_line_number" : 654
+}
+{
+  "@timestamp" : "2024-02-23T14:55:27.2876608+03:00",
+  "@version" : "1",
+  "logger_name" : "com.isaguler.structuredlog.service.UserService",
+  "thread_name" : "main",
+  "level" : "INFO",
+  "level_value" : 20000,
+  "user_info" : {
+    "id" : "99b95490-db83-421c-bfa5-26d2f34becea",
+    "name" : "isa",
+    "password" : "XXXX"
+  },
+  "tags" : [ "USER" ],
+  "caller_class_name" : "com.isaguler.structuredlog.service.UserService",
+  "caller_method_name" : "testLog",
+  "caller_file_name" : "UserService.java",
+  "caller_line_number" : 24
+}
+{
+  "@timestamp" : "2024-02-23T14:55:27.3190776+03:00",
+  "@version" : "1",
+  "logger_name" : "com.isaguler.structuredlog.service.UserService",
+  "thread_name" : "main",
+  "level" : "ERROR",
+  "level_value" : 40000,
+  "error_message" : "Cannot invoke \"String.substring(int, int)\" because \"s\" is null",
+  "exception_class" : "java.lang.NullPointerException",
+  "tags" : [ "EXCEPTION" ],
+  "caller_class_name" : "com.isaguler.structuredlog.service.UserService",
+  "caller_method_name" : "testLog",
+  "caller_file_name" : "UserService.java",
+  "caller_line_number" : 35
+}
+{
+  "@timestamp" : "2024-02-23T14:55:27.5971381+03:00",
+  "@version" : "1",
+  "message" : "Started StructuredLogApplication in 1.432 seconds (process running for 2.312)",
+  "logger_name" : "com.isaguler.structuredlog.StructuredLogApplication",
+  "thread_name" : "main",
+  "level" : "INFO",
+  "level_value" : 20000,
+  "caller_class_name" : "org.springframework.boot.StartupInfoLogger",
+  "caller_method_name" : "logStarted",
+  "caller_file_name" : "StartupInfoLogger.java",
+  "caller_line_number" : 56
+}
+{
+  "@timestamp" : "2024-02-23T14:59:42.0178217+03:00",
+  "@version" : "1",
+  "message" : "Starting StructuredLogApplication using Java 21.0.1 with PID 29292 (C:\\Users\\Gülers\\IdeaProjects\\glimpse-of-code\\structured-log\\target\\classes started by Gülers in C:\\Users\\Gülers\\IdeaProjects\\glimpse-of-code)",
+  "logger_name" : "com.isaguler.structuredlog.StructuredLogApplication",
+  "thread_name" : "main",
+  "level" : "INFO",
+  "level_value" : 20000,
+  "caller_class_name" : "org.springframework.boot.StartupInfoLogger",
+  "caller_method_name" : "logStarting",
+  "caller_file_name" : "StartupInfoLogger.java",
+  "caller_line_number" : 50
+}
+{
+  "@timestamp" : "2024-02-23T14:59:42.0278216+03:00",
+  "@version" : "1",
+  "message" : "No active profile set, falling back to 1 default profile: \"default\"",
+  "logger_name" : "com.isaguler.structuredlog.StructuredLogApplication",
+  "thread_name" : "main",
+  "level" : "INFO",
+  "level_value" : 20000,
+  "caller_class_name" : "org.springframework.boot.SpringApplication",
+  "caller_method_name" : "logStartupProfileInfo",
+  "caller_file_name" : "SpringApplication.java",
+  "caller_line_number" : 654
+}
+{
+  "@timestamp" : "2024-02-23T14:59:42.8421141+03:00",
+  "@version" : "1",
+  "logger_name" : "com.isaguler.structuredlog.service.UserService",
+  "thread_name" : "main",
+  "level" : "INFO",
+  "level_value" : 20000,
+  "user_info" : {
+    "id" : "85ef0e23-612a-4183-8323-81a0354d0869",
+    "name" : "isa",
+    "password" : "XXXX"
+  },
+  "tags" : [ "USER" ],
+  "caller_class_name" : "com.isaguler.structuredlog.service.UserService",
+  "caller_method_name" : "testLog",
+  "caller_file_name" : "UserService.java",
+  "caller_line_number" : 24
+}
+{
+  "@timestamp" : "2024-02-23T14:59:42.8731308+03:00",
+  "@version" : "1",
+  "logger_name" : "com.isaguler.structuredlog.service.UserService",
+  "thread_name" : "main",
+  "level" : "ERROR",
+  "level_value" : 40000,
+  "error_message" : "Cannot invoke \"String.substring(int, int)\" because \"s\" is null",
+  "exception_class" : "java.lang.NullPointerException",
+  "tags" : [ "EXCEPTION" ],
+  "caller_class_name" : "com.isaguler.structuredlog.service.UserService",
+  "caller_method_name" : "testLog",
+  "caller_file_name" : "UserService.java",
+  "caller_line_number" : 35
+}
+{
+  "@timestamp" : "2024-02-23T14:59:43.1517169+03:00",
+  "@version" : "1",
+  "message" : "Started StructuredLogApplication in 1.45 seconds (process running for 2.425)",
+  "logger_name" : "com.isaguler.structuredlog.StructuredLogApplication",
+  "thread_name" : "main",
+  "level" : "INFO",
+  "level_value" : 20000,
+  "caller_class_name" : "org.springframework.boot.StartupInfoLogger",
+  "caller_method_name" : "logStarted",
+  "caller_file_name" : "StartupInfoLogger.java",
+  "caller_line_number" : 56
+}
+{
+  "@timestamp" : "2024-02-23T15:04:58.565809+03:00",
+  "@version" : "1",
+  "message" : "Starting StructuredLogApplication using Java 21.0.1 with PID 8376 (C:\\Users\\Gülers\\IdeaProjects\\glimpse-of-code\\structured-log\\target\\classes started by Gülers in C:\\Users\\Gülers\\IdeaProjects\\glimpse-of-code)",
+  "logger_name" : "com.isaguler.structuredlog.StructuredLogApplication",
+  "thread_name" : "main",
+  "level" : "INFO",
+  "level_value" : 20000,
+  "caller_class_name" : "org.springframework.boot.StartupInfoLogger",
+  "caller_method_name" : "logStarting",
+  "caller_file_name" : "StartupInfoLogger.java",
+  "caller_line_number" : 50
+}
+{
+  "@timestamp" : "2024-02-23T15:04:58.5773244+03:00",
+  "@version" : "1",
+  "message" : "No active profile set, falling back to 1 default profile: \"default\"",
+  "logger_name" : "com.isaguler.structuredlog.StructuredLogApplication",
+  "thread_name" : "main",
+  "level" : "INFO",
+  "level_value" : 20000,
+  "caller_class_name" : "org.springframework.boot.SpringApplication",
+  "caller_method_name" : "logStartupProfileInfo",
+  "caller_file_name" : "SpringApplication.java",
+  "caller_line_number" : 654
+}
+{
+  "@timestamp" : "2024-02-23T15:04:59.4283636+03:00",
+  "@version" : "1",
+  "logger_name" : "com.isaguler.structuredlog.service.UserService",
+  "thread_name" : "main",
+  "level" : "INFO",
+  "level_value" : 20000,
+  "user_info" : {
+    "id" : "81071dae-3062-497a-b4e8-01973d9fe626",
+    "name" : "isa",
+    "password" : "XXXX"
+  },
+  "tags" : [ "USER" ],
+  "caller_class_name" : "com.isaguler.structuredlog.service.UserService",
+  "caller_method_name" : "testLog",
+  "caller_file_name" : "UserService.java",
+  "caller_line_number" : 24
+}
+{
+  "@timestamp" : "2024-02-23T15:04:59.4597286+03:00",
+  "@version" : "1",
+  "logger_name" : "com.isaguler.structuredlog.service.UserService",
+  "thread_name" : "main",
+  "level" : "ERROR",
+  "level_value" : 40000,
+  "error_message" : "Cannot invoke \"String.substring(int, int)\" because \"s\" is null",
+  "exception_class" : "java.lang.NullPointerException",
+  "tags" : [ "EXCEPTION" ],
+  "caller_class_name" : "com.isaguler.structuredlog.service.UserService",
+  "caller_method_name" : "testLog",
+  "caller_file_name" : "UserService.java",
+  "caller_line_number" : 35
+}
+{
+  "@timestamp" : "2024-02-23T15:04:59.7595542+03:00",
+  "@version" : "1",
+  "message" : "Started StructuredLogApplication in 1.566 seconds (process running for 2.626)",
+  "logger_name" : "com.isaguler.structuredlog.StructuredLogApplication",
+  "thread_name" : "main",
+  "level" : "INFO",
+  "level_value" : 20000,
+  "caller_class_name" : "org.springframework.boot.StartupInfoLogger",
+  "caller_method_name" : "logStarted",
+  "caller_file_name" : "StartupInfoLogger.java",
+  "caller_line_number" : 56
+}
+{
+  "@timestamp" : "2024-02-23T15:10:39.6554945+03:00",
+  "@version" : "1",
+  "message" : "Starting StructuredLogApplication using Java 21.0.1 with PID 32336 (C:\\Users\\Gülers\\IdeaProjects\\glimpse-of-code\\structured-log\\target\\classes started by Gülers in C:\\Users\\Gülers\\IdeaProjects\\glimpse-of-code)",
+  "logger_name" : "com.isaguler.structuredlog.StructuredLogApplication",
+  "thread_name" : "main",
+  "level" : "INFO",
+  "level_value" : 20000,
+  "caller_class_name" : "org.springframework.boot.StartupInfoLogger",
+  "caller_method_name" : "logStarting",
+  "caller_file_name" : "StartupInfoLogger.java",
+  "caller_line_number" : 50
+}
+{
+  "@timestamp" : "2024-02-23T15:10:39.6690086+03:00",
+  "@version" : "1",
+  "message" : "No active profile set, falling back to 1 default profile: \"default\"",
+  "logger_name" : "com.isaguler.structuredlog.StructuredLogApplication",
+  "thread_name" : "main",
+  "level" : "INFO",
+  "level_value" : 20000,
+  "caller_class_name" : "org.springframework.boot.SpringApplication",
+  "caller_method_name" : "logStartupProfileInfo",
+  "caller_file_name" : "SpringApplication.java",
+  "caller_line_number" : 654
+}
+{
+  "@timestamp" : "2024-02-23T15:10:40.5291325+03:00",
+  "@version" : "1",
+  "logger_name" : "com.isaguler.structuredlog.service.UserService",
+  "thread_name" : "main",
+  "level" : "INFO",
+  "level_value" : 20000,
+  "user_info" : {
+    "id" : "13121ffc-e056-4107-8118-94e290186510",
+    "name" : "isa",
+    "password" : "XXXX"
+  },
+  "tags" : [ "USER", "ERROR" ],
+  "caller_class_name" : "com.isaguler.structuredlog.service.UserService",
+  "caller_method_name" : "testLog",
+  "caller_file_name" : "UserService.java",
+  "caller_line_number" : 25
+}
+{
+  "@timestamp" : "2024-02-23T15:10:40.5598668+03:00",
+  "@version" : "1",
+  "logger_name" : "com.isaguler.structuredlog.service.UserService",
+  "thread_name" : "main",
+  "level" : "ERROR",
+  "level_value" : 40000,
+  "error_message" : "Cannot invoke \"String.substring(int, int)\" because \"s\" is null",
+  "exception_class" : "java.lang.NullPointerException",
+  "tags" : [ "EXCEPTION" ],
+  "caller_class_name" : "com.isaguler.structuredlog.service.UserService",
+  "caller_method_name" : "testLog",
+  "caller_file_name" : "UserService.java",
+  "caller_line_number" : 36
+}
+{
+  "@timestamp" : "2024-02-23T15:10:40.853793+03:00",
+  "@version" : "1",
+  "message" : "Started StructuredLogApplication in 1.53 seconds (process running for 2.448)",
+  "logger_name" : "com.isaguler.structuredlog.StructuredLogApplication",
+  "thread_name" : "main",
+  "level" : "INFO",
+  "level_value" : 20000,
+  "caller_class_name" : "org.springframework.boot.StartupInfoLogger",
+  "caller_method_name" : "logStarted",
+  "caller_file_name" : "StartupInfoLogger.java",
+  "caller_line_number" : 56
+}
+{
+  "@timestamp" : "2024-02-27T15:05:33.2381929+03:00",
+  "@version" : "1",
+  "message" : "Starting StructuredLogApplication using Java 21.0.1 with PID 8872 (C:\\Users\\Gülers\\IdeaProjects\\glimpse-of-code\\structured-log\\target\\classes started by Gülers in C:\\Users\\Gülers\\IdeaProjects\\glimpse-of-code)",
+  "logger_name" : "com.isaguler.structuredlog.StructuredLogApplication",
+  "thread_name" : "main",
+  "level" : "INFO",
+  "level_value" : 20000,
+  "caller_class_name" : "org.springframework.boot.StartupInfoLogger",
+  "caller_method_name" : "logStarting",
+  "caller_file_name" : "StartupInfoLogger.java",
+  "caller_line_number" : 50
+}
+{
+  "@timestamp" : "2024-02-27T15:05:33.249921+03:00",
+  "@version" : "1",
+  "message" : "No active profile set, falling back to 1 default profile: \"default\"",
+  "logger_name" : "com.isaguler.structuredlog.StructuredLogApplication",
+  "thread_name" : "main",
+  "level" : "INFO",
+  "level_value" : 20000,
+  "caller_class_name" : "org.springframework.boot.SpringApplication",
+  "caller_method_name" : "logStartupProfileInfo",
+  "caller_file_name" : "SpringApplication.java",
+  "caller_line_number" : 654
+}
+{
+  "@timestamp" : "2024-02-27T15:05:34.1760717+03:00",
+  "@version" : "1",
+  "logger_name" : "com.isaguler.structuredlog.service.UserService",
+  "thread_name" : "main",
+  "level" : "INFO",
+  "level_value" : 20000,
+  "user_info" : {
+    "id" : "0a4afefe-6d1a-4c95-aec3-7742bbdc8a5a",
+    "name" : "isa",
+    "password" : "XXXX"
+  },
+  "tags" : [ "USER", "ERROR" ],
+  "caller_class_name" : "com.isaguler.structuredlog.service.UserService",
+  "caller_method_name" : "testLog",
+  "caller_file_name" : "UserService.java",
+  "caller_line_number" : 29
+}
+{
+  "@timestamp" : "2024-02-27T15:05:34.2191434+03:00",
+  "@version" : "1",
+  "logger_name" : "com.isaguler.structuredlog.service.UserService",
+  "thread_name" : "main",
+  "level" : "ERROR",
+  "level_value" : 40000,
+  "error_message" : "Cannot invoke \"String.substring(int, int)\" because \"s\" is null",
+  "exception_class" : "java.lang.NullPointerException",
+  "tags" : [ "EXCEPTION" ],
+  "caller_class_name" : "com.isaguler.structuredlog.service.UserService",
+  "caller_method_name" : "testLog",
+  "caller_file_name" : "UserService.java",
+  "caller_line_number" : 40
+}
+{
+  "@timestamp" : "2024-02-27T15:05:34.5619433+03:00",
+  "@version" : "1",
+  "message" : "Started StructuredLogApplication in 1.626 seconds (process running for 3.245)",
+  "logger_name" : "com.isaguler.structuredlog.StructuredLogApplication",
+  "thread_name" : "main",
+  "level" : "INFO",
+  "level_value" : 20000,
+  "caller_class_name" : "org.springframework.boot.StartupInfoLogger",
+  "caller_method_name" : "logStarted",
+  "caller_file_name" : "StartupInfoLogger.java",
+  "caller_line_number" : 56
+}
+{
+  "@timestamp" : "2024-02-27T15:21:44.6753903+03:00",
+  "@version" : "1",
+  "message" : "Starting StructuredLogApplication using Java 21.0.1 with PID 4228 (C:\\Users\\Gülers\\IdeaProjects\\glimpse-of-code\\structured-log\\target\\classes started by Gülers in C:\\Users\\Gülers\\IdeaProjects\\glimpse-of-code)",
+  "logger_name" : "com.isaguler.structuredlog.StructuredLogApplication",
+  "thread_name" : "main",
+  "level" : "INFO",
+  "level_value" : 20000,
+  "caller_class_name" : "org.springframework.boot.StartupInfoLogger",
+  "caller_method_name" : "logStarting",
+  "caller_file_name" : "StartupInfoLogger.java",
+  "caller_line_number" : 50
+}
+{
+  "@timestamp" : "2024-02-27T15:21:44.6899487+03:00",
+  "@version" : "1",
+  "message" : "No active profile set, falling back to 1 default profile: \"default\"",
+  "logger_name" : "com.isaguler.structuredlog.StructuredLogApplication",
+  "thread_name" : "main",
+  "level" : "INFO",
+  "level_value" : 20000,
+  "caller_class_name" : "org.springframework.boot.SpringApplication",
+  "caller_method_name" : "logStartupProfileInfo",
+  "caller_file_name" : "SpringApplication.java",
+  "caller_line_number" : 654
+}
+{
+  "@timestamp" : "2024-02-27T15:21:45.600661+03:00",
+  "@version" : "1",
+  "logger_name" : "com.isaguler.structuredlog.service.UserService",
+  "thread_name" : "main",
+  "level" : "INFO",
+  "level_value" : 20000,
+  "user_info" : {
+    "id" : "6c01cd44-5653-40da-8087-e1873b5bc1ef",
+    "name" : "isa",
+    "password" : "XXXX"
+  },
+  "tags" : [ "USER", "ERROR" ],
+  "caller_class_name" : "com.isaguler.structuredlog.service.UserService",
+  "caller_method_name" : "testLog",
+  "caller_file_name" : "UserService.java",
+  "caller_line_number" : 29
+}
+{
+  "@timestamp" : "2024-02-28T11:25:47.7785819+03:00",
+  "@version" : "1",
+  "message" : "Starting StructuredLogApplication using Java 21.0.1 with PID 6096 (C:\\Users\\Gülers\\IdeaProjects\\glimpse-of-code\\structured-log\\target\\classes started by Gülers in C:\\Users\\Gülers\\IdeaProjects\\glimpse-of-code)",
+  "logger_name" : "com.isaguler.structuredlog.StructuredLogApplication",
+  "thread_name" : "main",
+  "level" : "INFO",
+  "level_value" : 20000,
+  "caller_class_name" : "org.springframework.boot.StartupInfoLogger",
+  "caller_method_name" : "logStarting",
+  "caller_file_name" : "StartupInfoLogger.java",
+  "caller_line_number" : 50
+}
+{
+  "@timestamp" : "2024-02-28T11:25:47.7915805+03:00",
+  "@version" : "1",
+  "message" : "No active profile set, falling back to 1 default profile: \"default\"",
+  "logger_name" : "com.isaguler.structuredlog.StructuredLogApplication",
+  "thread_name" : "main",
+  "level" : "INFO",
+  "level_value" : 20000,
+  "caller_class_name" : "org.springframework.boot.SpringApplication",
+  "caller_method_name" : "logStartupProfileInfo",
+  "caller_file_name" : "SpringApplication.java",
+  "caller_line_number" : 654
+}
+{
+  "@timestamp" : "2024-02-28T11:25:49.063403+03:00",
+  "@version" : "1",
+  "logger_name" : "com.isaguler.structuredlog.service.UserService",
+  "thread_name" : "main",
+  "level" : "INFO",
+  "level_value" : 20000,
+  "user_info" : {
+    "id" : "b8817d54-cf9b-460e-bfaf-7f3ce7549712",
+    "name" : "isa",
+    "password" : "XXXX"
+  },
+  "tags" : [ "USER", "ERROR" ],
+  "caller_class_name" : "com.isaguler.structuredlog.service.UserService",
+  "caller_method_name" : "testLog",
+  "caller_file_name" : "UserService.java",
+  "caller_line_number" : 29
+}
+{
+  "@timestamp" : "2024-02-28T11:25:49.1064507+03:00",
+  "@version" : "1",
+  "logger_name" : "com.isaguler.structuredlog.service.UserService",
+  "thread_name" : "main",
+  "level" : "ERROR",
+  "level_value" : 40000,
+  "error_message" : "Cannot invoke \"String.substring(int, int)\" because \"s\" is null",
+  "exception_class" : "java.lang.NullPointerException",
+  "tags" : [ "EXCEPTION" ],
+  "caller_class_name" : "com.isaguler.structuredlog.service.UserService",
+  "caller_method_name" : "testLog",
+  "caller_file_name" : "UserService.java",
+  "caller_line_number" : 40
+}
+{
+  "@timestamp" : "2024-02-28T11:25:49.4702393+03:00",
+  "@version" : "1",
+  "message" : "Started StructuredLogApplication in 2.166 seconds (process running for 3.903)",
+  "logger_name" : "com.isaguler.structuredlog.StructuredLogApplication",
+  "thread_name" : "main",
+  "level" : "INFO",
+  "level_value" : 20000,
+  "caller_class_name" : "org.springframework.boot.StartupInfoLogger",
+  "caller_method_name" : "logStarted",
+  "caller_file_name" : "StartupInfoLogger.java",
+  "caller_line_number" : 56
+}

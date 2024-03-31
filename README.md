@@ -15,3 +15,4 @@ Let's celebrate the beauty of code and learn from the diverse perspectives of de
 2. [Scheduling App With Spring Boot and Timefold](https://github.com/isaguler/glimpse-of-code/tree/master/timefold)
 3. [Structured Logging With Logback & Log4j/Slf4j](https://github.com/isaguler/glimpse-of-code/tree/master/structured-log)
 4. [Easily Generate Charts With Your Data Using JFreeChart](https://github.com/isaguler/glimpse-of-code/tree/master/jfreechart-demo)
+5. [Generate QR Code From URL](https://github.com/isaguler/glimpse-of-code/tree/master/qr-code)
