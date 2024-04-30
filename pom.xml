@@ -25,6 +25,7 @@
 		<module>structured-log</module>
 		<module>jfreechart-demo</module>
 		<module>qr-code</module>
+		<module>rest-exception-handler-demo</module>
 	</modules>
 
 	<dependencies>
