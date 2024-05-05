@@ -1,4 +1,4 @@
-# excel-to-pdf / json
+# Excel to PDF or JSON
 
 [Excel to PDF](https://www.baeldung.com/java-convert-excel-files-pdf)
 

@@ -1,3 +1,5 @@
+![](jfree_chart_1.jpg)
+
 ### JFreeChart
 
 https://www.jfree.org/index.html

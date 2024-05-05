@@ -1,6 +1,8 @@
+![](timefold-logo.png)
+
 # timefold
 
-https://www.youtube.com/watch?v=jOTn6N-8iKc&ab_channel=Timefold
+[Timefold Youtube](https://www.youtube.com/watch?v=jOTn6N-8iKc&ab_channel=Timefold)
 
 ```xml
 <dependencyManagement>
