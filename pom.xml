@@ -26,6 +26,7 @@
 		<module>jfreechart-demo</module>
 		<module>qr-code</module>
 		<module>rest-exception-handler-demo</module>
+		<module>cdc-debezium</module>
 	</modules>
 
 	<dependencies>
