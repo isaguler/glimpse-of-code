@@ -18,3 +18,4 @@ Let's celebrate the beauty of code and learn from the diverse perspectives of de
 5. [Generate QR Code From URL](https://github.com/isaguler/glimpse-of-code/tree/master/qr-code)
 6. [Have Proper Error Responses for REST APIs](https://github.com/isaguler/glimpse-of-code/tree/master/rest-exception-handler-demo)
 7. [Change Data Capture With Embedded Debezium](https://github.com/isaguler/glimpse-of-code/tree/master/cdc-debezium)
+8. [Simple JMeter performance tests Java API](https://github.com/isaguler/glimpse-of-code/tree/master/jmeter-dsl-demo)
