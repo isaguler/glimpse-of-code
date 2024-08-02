@@ -1,0 +1,21 @@
+server:
+  port: 8089
+
+org:
+  jobrunr:
+    background-job-server:
+      enabled: true
+    dashboard:
+      enabled: true
+      username: admin
+      password: 12345
+
+spring:
+  datasource:
+    url: jdbc:mysql://localhost:3306/persondb
+    username: mysql-user
+    password: mysql-password
+    driver-class-name: com.mysql.cj.jdbc.Driver
+  jpa:
+    hibernate:
+      ddl-auto: create
