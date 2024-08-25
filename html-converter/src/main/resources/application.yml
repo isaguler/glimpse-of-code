@@ -1,0 +1,7 @@
+spring:
+  application:
+    name: html-converter
+
+springdoc:
+  swagger-ui:
+    path: "/api-docs"

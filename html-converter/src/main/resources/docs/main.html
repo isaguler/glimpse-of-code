@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" xmlns:th="https://www.thymeleaf.org" xmlns:sec="https://www.thymeleaf.org/thymeleaf-extras-springsecurity3">
+<head>
+    <title>Main Page</title>
+</head>
+<body>
+<h1>Welcome to E-Commerce</h1>
+
+<div>
+    <table>
+        <tr th:object="${userSession}">
+            <td th:text="${userSession}"></td>
+            <!--<td th:text="${userSession.userModel.lastname}"></td>
+            <td th:text="${userSession.userModel.email}"></td>-->
+        </tr>
+    </table>
+</div>
+
+</body>
+</html>
