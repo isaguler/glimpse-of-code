@@ -5,7 +5,7 @@
 	<parent>
 		<groupId>org.springframework.boot</groupId>
 		<artifactId>spring-boot-starter-parent</artifactId>
-		<version>3.3.1</version>
+		<version>3.3.3</version>
 		<relativePath/> <!-- lookup parent from repository -->
 	</parent>
 	<groupId>com.guler</groupId>
@@ -29,6 +29,7 @@
 		<module>cdc-debezium</module>
 		<module>jmeter-dsl-demo</module>
 		<module>jobrunr-demo</module>
+		<module>html-converter</module>
 	</modules>
 
 	<dependencies>
