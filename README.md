@@ -22,7 +22,7 @@ Let's celebrate the beauty of code and learn from the diverse perspectives of de
 7. [Change Data Capture With Embedded Debezium](https://github.com/isaguler/glimpse-of-code/tree/master/cdc-debezium)
 8. [Simple JMeter performance tests Java API](https://github.com/isaguler/glimpse-of-code/tree/master/jmeter-dsl-demo)
 9. [The ultimate library for background processing in Java](https://github.com/isaguler/glimpse-of-code/tree/master/jobrunr-demo)
-10. [HTML File to PDF](https://github.com/isaguler/glimpse-of-code/tree/master/html-cpnverter)
+10. [HTML File to PDF](https://github.com/isaguler/glimpse-of-code/tree/master/html-converter)
 
 
 ![](glimpse-of-code-img-2.jpg)
