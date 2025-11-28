@@ -1,0 +1,13 @@
+spring:
+  application:
+    name: jasypt
+jasypt:
+  encryptor:
+    #algorithm: PBEWithMD5AndDES
+    password: password
+
+app:
+  secret: ENC(tnKiYeUdWHmKgA6NwMv4QO0S5GheF1Z7Xqu+EGOss54wBtDQ8AXG7tpqmuzXb730)
+  open: openValue
+
+
