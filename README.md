@@ -23,7 +23,8 @@ Let's celebrate the beauty of code and learn from the diverse perspectives of de
 8. [Simple JMeter performance tests Java API](https://github.com/isaguler/glimpse-of-code/tree/master/jmeter-dsl-demo)
 9. [The ultimate library for background processing in Java](https://github.com/isaguler/glimpse-of-code/tree/master/jobrunr-demo)
 10. [HTML File to PDF](https://github.com/isaguler/glimpse-of-code/tree/master/html-converter)
-10. [Jasypt Spring Boot](https://github.com/isaguler/glimpse-of-code/tree/master/jasypt)
+11. [Jasypt Spring Boot](https://github.com/isaguler/glimpse-of-code/tree/master/jasypt)
+12. [icu4j](https://github.com/isaguler/glimpse-of-code/tree/master/icu-java)
 
 
 ![](glimpse-of-code-img-2.jpg)
